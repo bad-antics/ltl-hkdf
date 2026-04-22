@@ -1,0 +1,15 @@
+// ltl-hkdf/main.ltl
+//
+// HKDF extract-and-expand over SHA-256 / SHA-512.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-hkdf v0.1.0")
+    io::println("HKDF extract-and-expand over SHA-256 / SHA-512.")
+    0
+}
